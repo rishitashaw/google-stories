@@ -18,9 +18,10 @@
     "gatsby": "^2.20.3",
     "gatsby-plugin-less": "^3.1.1",
     "gatsby-plugin-sass": "^2.2.1",
+    "gsap": "^3.6.1",
     "less": "^3.11.1",
     "less-loader": "^5.0.0",
-    "node-sass": "^4.13.1",
+    "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
