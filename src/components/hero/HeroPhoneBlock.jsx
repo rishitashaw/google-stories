@@ -33,7 +33,7 @@ export default function HeroPhoneBlock() {
                     scrub: true
                 }
             });
-            tl.to(phoneRef.current, { scale: .9 }, '+=.2');
+            tl.to(phoneRef.current, { scale: 1 }, '+=.2');
             tl.to(
                 '.hero', {
                 backgroundColor: '#252525',
@@ -61,6 +61,7 @@ export default function HeroPhoneBlock() {
                     src={videoUrl}
                     playsInline=''
                     autoPlay
+                    muted
                     webkit-playsInline
                     loop
                     className='collage-element'

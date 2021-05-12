@@ -21,9 +21,9 @@ export default function HeroHeader() {
     }, [])
 
 
-    return <div className='hero-text-section'>
+    return (<div className='hero-text-section'>
         <h1 id='hero-text'>
             Stories meet their <br />wildest audience ever
         </h1>
-    </div>
+    </div>)
 }

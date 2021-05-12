@@ -7,3 +7,71 @@ font-family: 'Noto Sans JP', sans-serif;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap');
+
+.loader{
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background: white;
+}
+
+.feature-slides-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  .feature-slide{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    margin: 0 auto;
+
+    .feature-slide-title{
+      font-size: 6vw;
+      text-transform: uppercase;
+      font-weight: 900;
+      font-style: italic;
+    }
+    .feature-slide-description{
+      font-size: 1.2rem;
+      margin-top: 30px;
+      line-height: 1.4rem;
+    }
+
+  }
+  .feature-slides-right{
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+
+    img{
+      width: 100%;
+      height: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      opacity: 0;
+      transition: all 1s ease-in-out;
+      transform: scale(1.2);
+      position: absolute;
+      top: 0;
+
+      &.as-primary{
+        opacity: 1;
+        transform: scale(1.1);
+      }
+    }
+  }
+}
+
+.footer{
+  height: 60vh;
+  color: white;
+  background: #4285F4;
+  font-size: 2rem;
+
+  h1{
+    padding-top: 300px;
+    margin-left: 30px;
+  }
+}

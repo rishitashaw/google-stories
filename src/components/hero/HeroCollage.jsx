@@ -12,6 +12,7 @@ function VideoElement({ src }) {
                 autoPlay
                 webkit-playsInline
                 loop
+                muted
                 src={src}></video>
 
         </div>
