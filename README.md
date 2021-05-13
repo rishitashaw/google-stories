@@ -1,4 +1,4 @@
-#This is the starting project for Web Unlocked tutorials
+
 
 This project is bootstrapped by gatsby
 
